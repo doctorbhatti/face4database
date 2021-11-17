@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Face4Database</title>
+    <script src="/public/js/mainLogic.js"></script>
+    <script src="/public/js/jquery-3.6.0.min.js"></script>
+    <script src="/public/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/css/style.css">
+</head>
+
+<body onload="createContent()">
+    
+    <nav class="navbar navbar-light flex-column flex-md-row bd-navbar" style="background-color: #0095ff;">
+        <span style="margin-left: 40%; margin-right: auto;">
+            <h1>Face4Database🔥</h1>
+        </span>
+    </nav>
+    <div class="container-fluid">
+        <div class="row flex-xl-roadmap">
+            <div class="col-12 col-md-3 col-xl-2 bd-sidebar">
+                <nav class="bd-links" id="bd-docs-nav">
+                    <div class="list-group">
+                        <div class="list-group-item" style="margin-top: 30%; visibility: collapse;">
+                            <h4>The "Face4Database" is based on Express, jQuery, JavaScript, HTML5 & CSS for a SQL
+                                database,
+                                allowing editing, and updating of database.
+                                This app can also be used to retrieve results from MySQL database as JSON as in APIs.
+                            </h4>
+                        </div>
+                        <div id="tables" style="visibility: collapse;">
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5 bd-content" role="main" id="mainform">
+                <table id="data" class="table table-striped table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="datacontent">
+                    </tbody>
+                </table>
+            </main>
+        </div>
+    </div>
+    <div class="footerWrap">
+        <div class="footer">
+          <div class="footerContent">
+            <p>Face4Database🔥 with ❤️ by <a href="https://doctorbhatti.rocks">Muhammad Hassan Ashfaq</a></p>
+          </div>     
+        </div>
+    </div>
+</body>
+
+</html>
